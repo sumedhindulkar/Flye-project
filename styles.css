@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box{
+      width: 80%;
+      box-shadow: 6px 6px 30px rgba(50, 50, 50, 0.15);
+      border-radius: 30px;
+      padding: 20px 30px;
+      margin: 20px 0;
+    }
+    .box h3{
+      margin: 10px 0px;
+      font-size: 1.5rem;
+    }
+    .box:hover{
+      box-shadow: 6px 6px 30px rgba(50, 50, 50, 0.4);
+    }
+    .icons{
+      width:70px;
+      margin-left: -5px;
+    }
+    
+    .clip{
+      clip-path: circle(40%);
+    }
+    h1{
+      line-height: 1.4;
+      font-size: 2.8rem;
+    }
+    a span{
+      background-color: rgba(0,0,0,0.7);
+      border-radius: 10px;
+      padding: 20px 20px;
+    }
+
+    .carousel-indicators{
+      justify-content: left!important;
+      z-index: 1!important;
+      margin:0!important;
+      margin-left: -8px !important;
+      position: relative!important;
+      top:-120px;
+    }
+    .view-inactive{
+      display: none;
+    }
+    @media screen and (max-width: 768px) {
+      .carousel-indicators a span{
+        margin-top: 130px!important;
+      }
+    }
